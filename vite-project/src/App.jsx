@@ -7,6 +7,7 @@ import UserProfile from './components/UserProfile'
 import Dashboard from './components/Dashboard'
 import Incdec from './components/Incdec'
 import SearchBar from './components/SearchBar'
+import SecretMessage from './components/SecretMessage'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
     <Dashboard/>
     <Incdec/>
     <SearchBar/>
+    <SecretMessage/>
     </>
   )
 }
