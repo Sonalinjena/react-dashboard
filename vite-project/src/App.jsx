@@ -8,6 +8,7 @@ import Dashboard from './components/Dashboard'
 import Incdec from './components/Incdec'
 import SearchBar from './components/SearchBar'
 import SecretMessage from './components/SecretMessage'
+import TodoList from './components/ToDoList'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
     <Incdec/>
     <SearchBar/>
     <SecretMessage/>
+    <TodoList/>
     </>
   )
 }
