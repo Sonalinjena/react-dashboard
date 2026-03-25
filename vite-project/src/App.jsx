@@ -9,6 +9,7 @@ import Incdec from './components/Incdec'
 import SearchBar from './components/SearchBar'
 import SecretMessage from './components/SecretMessage'
 import TodoList from './components/ToDoList'
+import AutoFocusForm from './components/AutoFocusForm'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
     <SearchBar/>
     <SecretMessage/>
     <TodoList/>
+    <AutoFocusForm/>
     </>
   )
 }
