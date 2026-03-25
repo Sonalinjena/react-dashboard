@@ -6,6 +6,7 @@ import './App.css'
 import UserProfile from './components/UserProfile'
 import Dashboard from './components/Dashboard'
 import Incdec from './components/Incdec'
+import SearchBar from './components/SearchBar'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
     <>
     <Dashboard/>
     <Incdec/>
+    <SearchBar/>
     </>
   )
 }
